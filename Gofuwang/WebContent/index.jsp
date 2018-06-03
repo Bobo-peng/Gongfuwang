@@ -32,7 +32,7 @@
       </fieldset>  
   </form>   -->
   
-  <form action="" method="post">
+  <form action="showdata.jsp" method="post" position="absolute" left="80%" top="50%">
     <div class="input_control">
         <input type="text" class="form_input" placeholder="UserName"/>
     </div>
