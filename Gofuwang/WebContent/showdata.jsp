@@ -4,21 +4,43 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" href="css/easyui.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="css/easyui.css" media="screen" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="css/xddialog.css">
+<link rel="stylesheet" type="text/css" href="css/style1.css">
 <title>功夫王预测系统</title>
 
 </head>
 <!-- <body bgcolor="#4A4A4A"> -->
 <body bgcolor="color:#B2DFEE">
-<h2 class="stroke" align="center" style="color:#C67171">功夫王订货预测系统</h2>
+<h2 class="stroke" align="center" style="color:#ff9900">功夫王订货预测系统</h2><!--#C67171  -->
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-
-<div class="membder-background addMemo-body" > <!-- style="float:right" -->
+<script type="text/javascript" src="js/xddialog.js"></script>
+<!--  <div class="membder-background addMemo-body" > 
 	<div class="addMemo" id="iframe">
 		<label>日期</label><input type="text" value=""  id="J-xl"/>
 		<div class="clear-both"></div>
 		<iframe src="iframe.html" width="30%" height="300" id="iframepage" name="iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>    
-	</div>		
+	</div>	
+	-->
+<div>
+		&nbsp;
+		&nbsp;
+		&nbsp;
+		门店
+	<input type="hidden" id="shopId" value>
+	<input type="text" id="shopName" value class="input inputWidth_2">
+		&nbsp;
+		&nbsp;
+		&nbsp;
+		&nbsp;
+		&nbsp;
+		&nbsp;
+	<th>日期  从</th>
+	<td>
+	<input type="text" name="day1" value="2018-06-01" class="input inputWidth_4" onfocus="WdatePicker({skin:'default',dateFmt:'yyyy-MM-dd',isShowClear:false,readOnly:true})">
+	到
+	<input type="text" name="day2" value="2018-06-12" class="input inputWidth_4" onfocus="WdatePicker({skin:'default',dateFmt:'yyyy-MM-dd',isShowClear:false,readOnly:true})">
+	</td>	
 </div>
 
 <script type="text/javascript">
@@ -27,6 +49,7 @@ $(document).ready(function(){
 	$("#J-xl").click(function(){
 		iframe.fadeIn();
 	});
+	$("#shopName").click(function () { jQuery.xdDialog.open("index.jsp", { width: 640, height: 420, lock: true, title: "选择门店", opacity: 0 }); });
 });
 </script>
 <style type="text/css">
