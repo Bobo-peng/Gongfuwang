@@ -10,9 +10,9 @@
 <title>功夫王预测系统</title>
 
 </head>
-<!-- <body bgcolor="#4A4A4A"> -->
-<body bgcolor="color:#B2DFEE">
-<h2 class="stroke" align="center" style="color:#ff9900">功夫王订货预测系统</h2><!--#C67171  -->
+<body bgcolor="color:black">
+<divstyle="margin-top:10px;"><h2 class="stroke" align="center" style="color:#ff9900">功夫王订货预测系统</h2><!--#C67171  --></div>
+
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="js/xddialog.js"></script>
 <!--  <div class="membder-background addMemo-body" > 
@@ -22,24 +22,33 @@
 		<iframe src="iframe.html" width="30%" height="300" id="iframepage" name="iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>    
 	</div>	
 	-->
-<div>
+<br>
+<div style="margin-top:20px;"  class="addMemo" id="iframe">
 		&nbsp;
 		&nbsp;
 		&nbsp;
-		门店
+	<font size="3" color="white">门店</font>
 	<input type="hidden" id="shopId" value>
 	<input type="text" id="shopName" value class="input inputWidth_2">
 		&nbsp;
 		&nbsp;
 		&nbsp;
-		&nbsp;
-		&nbsp;
-		&nbsp;
-	<th>日期  从</th>
+	
+	<th><font size="3" color="white">日期  从</font></th>
 	<td>
-	<input type="text" name="day1" value="2018-06-01" class="input inputWidth_4" onfocus="WdatePicker({skin:'default',dateFmt:'yyyy-MM-dd',isShowClear:false,readOnly:true})">
-	到
-	<input type="text" name="day2" value="2018-06-12" class="input inputWidth_4" onfocus="WdatePicker({skin:'default',dateFmt:'yyyy-MM-dd',isShowClear:false,readOnly:true})">
+	<iframe src="iframe.html" width="30%" height="300" id="iframepage" name="iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> 
+	
+	<input type="text" id="J-xl" name="day1" value="" onfocus="WdatePicker({skin:'default',dateFmt:'yyyy-MM-dd',isShowClear:false,readOnly:true})">
+	</div>
+	<font size="3" color="white">到</font>
+	<div class="addMemo" id="iframe">
+	<iframe src="iframe.html" width="30%" height="300" id="iframepage1" name="iframe1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> 
+	<input type="text" id="J-xl1" name="day2" value=""  onfocus="WdatePicker({skin:'default',dateFmt:'yyyy-MM-dd',isShowClear:false,readOnly:true})">
+		&nbsp;
+		&nbsp;
+		&nbsp;
+	<input type="submit"  class="search_click" value="查询"/>
+	
 	</td>	
 </div>
 
@@ -48,6 +57,10 @@ $(document).ready(function(){
 	var iframe=$("#iframepage").hide();
 	$("#J-xl").click(function(){
 		iframe.fadeIn();
+	});
+	var iframe1=$("#iframepage1").hide();
+	$("#J-xl1").click(function(){
+		iframe1.fadeIn();
 	});
 	$("#shopName").click(function () { jQuery.xdDialog.open("index.jsp", { width: 640, height: 420, lock: true, title: "选择门店", opacity: 0 }); });
 });
