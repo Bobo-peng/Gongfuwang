@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<servlet>  
+    <servlet-name>ShopServlet</servlet-name>  
+    <servlet-class>com.gongfu.servlet.ShopServlet</servlet-class>  
+</servlet>  
+  
+<servlet-mappping>  
+    <servlet-name>ShopServlet</servlet-name>  
+    <url-pattern>/servlet/ShopServlet</url-pattern>  
+</servlet-mappping>  
