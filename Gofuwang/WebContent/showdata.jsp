@@ -22,7 +22,6 @@
 		<iframe src="iframe.html" width="30%" height="300" id="iframepage" name="iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>    
 	</div>	
 	-->
-<br>
 <div style="margin-top:20px;"  class="addMemo" id="iframe">
 		&nbsp;
 		&nbsp;
@@ -36,14 +35,9 @@
 	
 	<th><font size="3" color="white">日期  从</font></th>
 	<td>
-	<iframe src="iframe.html" width="30%" height="300" id="iframepage" name="iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> 
-	
-	<input type="text" id="J-xl" name="day1" value="" onfocus="WdatePicker({skin:'default',dateFmt:'yyyy-MM-dd',isShowClear:false,readOnly:true})">
-	</div>
+	<input type="date"  name="day1" value="" onfocus="WdatePicker({skin:'default',dateFmt:'yyyy-MM-dd',isShowClear:false,readOnly:true})">
 	<font size="3" color="white">到</font>
-	<div class="addMemo" id="iframe">
-	<iframe src="iframe.html" width="30%" height="300" id="iframepage1" name="iframe1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> 
-	<input type="text" id="J-xl1" name="day2" value=""  onfocus="WdatePicker({skin:'default',dateFmt:'yyyy-MM-dd',isShowClear:false,readOnly:true})">
+	<input type="date"  name="day2" value=""  onfocus="WdatePicker({skin:'default',dateFmt:'yyyy-MM-dd',isShowClear:false,readOnly:true})">
 		&nbsp;
 		&nbsp;
 		&nbsp;
@@ -57,10 +51,6 @@ $(document).ready(function(){
 	var iframe=$("#iframepage").hide();
 	$("#J-xl").click(function(){
 		iframe.fadeIn();
-	});
-	var iframe1=$("#iframepage1").hide();
-	$("#J-xl1").click(function(){
-		iframe1.fadeIn();
 	});
 	$("#shopName").click(function () { jQuery.xdDialog.open("index.jsp", { width: 640, height: 420, lock: true, title: "选择门店", opacity: 0 }); });
 });
