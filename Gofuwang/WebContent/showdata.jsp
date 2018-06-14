@@ -52,7 +52,7 @@ $(document).ready(function(){
 	$("#J-xl").click(function(){
 		iframe.fadeIn();
 	});
-	$("#shopName").click(function () { jQuery.xdDialog.open("index.jsp", { width: 640, height: 420, lock: true, title: "选择门店", opacity: 0 }); });
+	$("#shopName").click(function () { jQuery.xdDialog.open("shop.jsp", { width: 640, height: 420, lock: true, title: "选择门店", opacity: 0 }); });
 });
 </script>
 <style type="text/css">

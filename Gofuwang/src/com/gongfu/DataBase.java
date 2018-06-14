@@ -1,5 +1,7 @@
 package com.gongfu;
-import java.sql.*;  
+import java.sql.*;
+
+import com.gongfu.entity.Shop;  
 public class DataBase {
 	/* public static void main(String[] args) {  
 	        try {  
@@ -14,32 +16,33 @@ public class DataBase {
 	        }  
 	    }  
 	    */
+	
 	//三属性，四方法  
-     
 	    //三大核心接口  
 	    private Connection conn=null;  
 	    private PreparedStatement pstmt=null;  
-	    private ResultSet rs=null;  
-	      
+	    private ResultSet rs=null; 
+	    
 	    String driver="com.microsoft.sqlserver.jdbc.SQLServerDriver";  
 	    String url="jdbc:sqlserver://127.0.0.1:1433";  
-	    String user="gfw";  
+	    String user="sa";  
 	    String password="123456";  
 	    //四个方法  
 	    //method1：创建数据库的连接  
 	    private void getConntion(){  
-	        try{  
+	    	try{   
 	            //加载连接驱动  
 	            Class.forName(driver);  
 	            //连接sqlserver数据库  
 	           conn=DriverManager.getConnection(url,user,password);  
+	           System.out.println("数据库连接成功");
 	        } catch(ClassNotFoundException e){  
 	            e.printStackTrace();  
 	        } catch(SQLException e){  
 	            e.printStackTrace();  
-	        }  
-	    }  
-	      
+            }  
+	    }
+	    
 	    //method2:关闭数据库连接  
 	    public void closeConn(){  
 	        if(rs!=null){  
