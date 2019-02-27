@@ -1,0 +1,63 @@
+﻿body {margin:0px; background-color:#f9f9f9; font-size:12pt; line-height:18pt; font-family:'microsoft yahei'; }
+form {margin:0; padding:0;}
+input {vertical-align:middle; font-family:Arial;}
+a {color:#333333; text-decoration:none;}
+
+.headMenuBlock {height:32pt; background-color:#24557d; padding:0 5pt; }
+
+.indexBlock {padding:10pt;}
+.indexBlock a {color:#333333; text-decoration:none;}
+.indexBlock .item {height:32pt; line-height:32pt; padding-left:10pt; margin-bottom:10pt; background-color:#eeeeee; border:solid 1px #cccccc; cursor:pointer; }
+.indexBlock .arrow {width:26pt; height:26pt; padding:3pt; float:right;}
+
+.line_1 {border-top:solid 1px #e3e3e3; border-bottom:solid 1px #ffffff; font-size:0px; line-height:0px;}
+
+.btnQuery {padding:0 10pt; height:30pt; line-height:30pt; background-color:#cccccc; float:left; white-space:nowrap; cursor:pointer; color:#000000;}
+.btnQuery:hover {background-color:#dddddd;}
+.btnQuery:active {background-color:#bbbbbb;}
+
+.tableQuery_1 {padding:5pt 0; color:#666666;}
+.tableQuery_1 td {padding:3pt 0; }
+.tableQuery_1 th {width:50pt; padding-right:5pt; text-align:right; font-weight:normal; }
+.tableQuery_1 .btnQuery {margin-left:5pt;}
+
+.input {height:26pt; font-size:12pt; line-height:26pt; margin:0; padding:0 2pt; border:solid 1px #cccccc; }
+.textarea {font-size:12pt; line-height:20pt; margin:0; padding:2pt; border:solid 1px #cccccc; }
+
+.inputWidth_1 {width:300pt;}
+.inputWidth_2 {width:120pt;}
+.inputWidth_3 {width:55pt;}
+.inputWidth_4 {width:75pt;}
+.inputWidth_5 {width:50pt;}
+
+.bodyBlock {padding:10pt;}
+.tableList_1 thead td {height:28pt; padding-left:10pt; font-size:10pt; font-weight:bold; color:#666666; background-color:#e6e6e6; border-top:solid 1px #dddddd;}
+.tableList_1 tbody td {height:32pt; padding-left:10pt; font-size:10pt; border-top:solid 1px #ffffff;  border-bottom:solid 1px #e3e3e3; color:#333333; }
+.tableList_1 .input { display:inline-block ; vertical-align:middle; font-family:Arial;}
+.tableList_1 .itemSub {width:20pt; height:26pt; display:inline-block; vertical-align:middle; background-color:#f0f0f0; border-left:solid 1px #b0b0b0; border-top:solid 1px #b0b0b0; border-bottom:solid 1px #b0b0b0; background-image:url(images/add_sub_1.gif); background-repeat:no-repeat; background-position:center -85px; cursor:pointer; }
+.tableList_1 .itemAdd {width:20pt; height:26pt; display:inline-block; vertical-align:middle; background-color:#f0f0f0; border-right:solid 1px #b0b0b0; border-top:solid 1px #b0b0b0; border-bottom:solid 1px #b0b0b0; background-image:url(images/add_sub_1.gif); background-repeat:no-repeat; background-position:center 12px; cursor:pointer; }
+
+.titleBlock_1 {height:28pt; line-height:28pt; background-color:#e6e6e6; border-top:solid 1px #dddddd; border-bottom:solid 1px #ffffff; padding-left:10pt; color:#666666; }
+.titleBlock_2 {height:28pt; line-height:28pt; background-color:#e6e6e6; border-top:solid 1px #dddddd; padding-left:10pt; color:#666666; }
+
+.btnBlock_1 {height:40pt; padding-top:10pt}
+
+.btn_1 {height:30pt; line-height:30pt; padding:0 10pt; margin-right:5pt; background-color:#cccccc; float:left; white-space:nowrap; cursor:pointer; }
+.btn_1:hover {background-color:#dddddd;}
+.btn_1:active {background-color:#bbbbbb;}
+
+.tableAdd_1 ul, .tableAdd_1 li {margin:0; padding:0; list-style:none;}
+.tableAdd_1 table {border-bottom:solid 1px #ffffff;}
+.tableAdd_1 thead td {height:28pt; padding-left:5pt; color:#666666; background-color:#e6e6e6; border-top:solid 1px #dddddd;}
+.tableAdd_1 tbody td, .tableAdd_1 tbody th {border-top:solid 1px #ffffff;  border-bottom:solid 1px #e3e3e3; text-align:left; color:#333333; padding-top:5pt; padding-bottom:5pt;}
+.tableAdd_1 tbody th {background-color:#f8f8f8; border-right:solid 1px #e3e3e3; padding-left:10pt; font-weight:normal; vertical-align:top}
+.tableAdd_1 tbody td {padding-left:5pt;}
+.tableAdd_1 .tips {color:#999999;}
+
+.btnPager {width:60pt; height:30pt; line-height:30pt; padding:0 10pt; background-color:#cccccc; color:#000000; white-space:nowrap; cursor:pointer; }
+.btnPager:hover {background-color:#dddddd;}
+.btnPager:active {background-color:#bbbbbb;}
+.btnPager_gray {width:60pt; height:30pt; line-height:30pt; padding:0 10pt; background-color:#cccccc; color:#999999; white-space:nowrap; cursor:pointer; }
+
+.bottomBlock {text-align:center; color:#ffffff;}
+.bottomBlock a {color:#ffffff; text-decoration:none;}

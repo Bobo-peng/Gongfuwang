@@ -1,0 +1,5 @@
+﻿.fixedTable {position:relative; overflow:hidden}
+.fixedTableLeft {position:absolute; left:0; top:0; overflow:hidden; z-index:1;}
+.fixedTableBody {position:absolute; left:0; top:0; overflow:hidden; z-index:0;}
+.fixedTableHeadLeft {position:absolute; left:0; top:0; overflow:hidden; z-index:4;}
+.fixedTableHeadBody {position:absolute; left:0; top:0; overflow:hidden; z-index:3;}

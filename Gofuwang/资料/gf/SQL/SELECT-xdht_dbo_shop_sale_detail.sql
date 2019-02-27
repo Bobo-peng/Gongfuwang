@@ -1,0 +1,11 @@
+SELECT [DetailId]
+      ,[ShopName]
+      ,[ProductName]
+      ,[UnitName]
+      ,[Price]
+      ,[Weight]
+      ,[TotalSum]
+      ,[TicketNo]
+      ,[DetailReleaseDate]
+  FROM [xdht].[dbo].[shop_sale_detail]
+  where [DetailReleaseDate]>='2018-06-25'

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance http://www.springmodules.org/schema/cache/springmodules-cache.xsd http://www.springmodules.org/schema/cache/springmodules-ehcache.xsd" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1"> 
+<servlet>  
+    <servlet-name>ShopServlet</servlet-name>  
+    <servlet-class>com.gongfu.servlet.ShopServlet</servlet-class>  
+</servlet>  
+<servlet-mappping>  
+    <servlet-name>ShopServlet</servlet-name>  
+    <url-pattern>/ShopServlet</url-pattern>  
+</servlet-mappping>  
+<servlet>  
+    <servlet-name>ProductServlet</servlet-name>  
+    <servlet-class>com.gongfu.servlet.ProductServlet</servlet-class>  
+</servlet>  
+<servlet-mappping>  
+    <servlet-name>ProductServlet</servlet-name>  
+    <url-pattern>/ProductServlet</url-pattern>  
+</servlet-mappping>  
+<servlet>  
+    <servlet-name>SaleServlet</servlet-name>  
+    <servlet-class>com.gongfu.servlet.SaleServlet</servlet-class>  
+</servlet>  
+<servlet-mappping>  
+    <servlet-name>SaleServlet</servlet-name>  
+    <url-pattern>/SaleServlet</url-pattern>  
+</servlet-mappping>
+<servlet>  
+    <servlet-name>TotalSaleServlet</servlet-name>  
+    <servlet-class>com.gongfu.servlet.TotalSaleServlet</servlet-class>  
+</servlet>  
+<servlet-mappping>  
+    <servlet-name>TotalSaleServlet</servlet-name>  
+    <url-pattern>/TotalSaleServlet</url-pattern>  
+</servlet-mappping> 
+<servlet>  
+    <servlet-name>PreSaleServlet</servlet-name>  
+    <servlet-class>com.gongfu.servlet.PreSaleServlet</servlet-class>  
+</servlet>  
+<servlet-mappping>  
+    <servlet-name>PreSaleServlet</servlet-name>  
+    <url-pattern>/PreSaleServlet</url-pattern>  
+</servlet-mappping>     
+
+
+</web-app>

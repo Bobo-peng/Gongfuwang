@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//WebContent/css/style1.css=UTF-8
+encoding//WebContent/css/xddialog.css=UTF-8
+encoding//WebContent/index.jsp=UTF-8
+encoding//WebContent/presale.jsp=UTF-8
+encoding//WebContent/shopinfo.jsp=UTF-8
+encoding//WebContent/shopinfo1.jsp=UTF-8
+encoding//src/com/gongfu/Dao/GetShopDao.java=UTF-8
+encoding//src/com/gongfu/DataBase.java=UTF-8
+encoding//src/com/gongfu/TestDataBase.java=UTF-8
+encoding//src/com/gongfu/entity/Shop.java=UTF-8
+encoding//src/com/gongfu/servlet/ShopServlet.java=UTF-8

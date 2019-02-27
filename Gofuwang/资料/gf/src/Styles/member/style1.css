@@ -1,0 +1,116 @@
+﻿body {margin:0; font-size:12px; line-height:20px}
+form {margin:0; padding:0; }
+input {vertical-align:middle;}
+
+.clearLine {clear:both; height:1px; font-size:0; line-height:0;}
+
+.bodyBg {background-color:#f6f6f6;}
+.pageFrame {width:960px; margin:auto;}
+.pageFrame_2 {padding:15px 15px 30px 15px;}
+
+.headBlock {height:80px; position:relative; }
+.headBlock_right {width:500px; position:absolute; right:0; top:30px; text-align:right; color:#333333;}
+.headBlock_right a {color:#333333; text-decoration:none; padding-left:6px; }
+.headBlock_right a:hover {color:#cc0000; }
+
+.bodyBlock {min-height:300px; _height:300px; background-image:url(images/left_bg_1.gif); background-repeat:repeat-y; border-top:solid 1px #e6e6e6; border-right:solid 1px #e6e6e6; border-bottom:solid 1px #e6e6e6; background-color:#ffffff;}
+.leftBlock {width:160px; float:left;}
+.leftBlock .title {height:51px; background-image:url(images/left_t_1.gif); background-repeat:no-repeat;}
+.leftBlock .title_1 {height:51px; background-image:url(images/left_t_2.gif); background-repeat:no-repeat;}
+.leftBlock ul, .leftBlock li {margin:0; padding:0; list-style:none;}
+.leftBlock li {width:155px; height:42px; line-height:40px; margin-left:1px; background-image:url(images/left_separator.gif); background-repeat:repeat-x; background-position:left bottom; color:#333333; }
+.leftBlock li .item {background-image:url(images/dot_1.gif); background-repeat:no-repeat; background-position:30px -83px; padding-left:50px;}
+.leftBlock a {color:#333333; text-decoration:none; }
+.leftBlock a:hover {color:#fc6412; }
+.leftBlock li.selected {width:159px; height:42px; line-height:42px; margin-left:0px; margin-top:-2px; border-left:solid 1px #d1d1d1;  border-top:solid 1px #d1d1d1;  border-bottom:solid 1px #d1d1d1; background-color:#ffffff; background-image:none; font-weight:bold;}
+.leftBlock li.selected a {color:#fc6412;}
+.leftBlock li.selected .item {background-position:30px 19px; }
+
+.contentBlock {width:799px; float:left;}
+.contentBlock_inner {margin:10px; min-height:500px; _height:500px; padding:15px; background-color:#f6f6f6;}
+
+.footBlock {height:40px; background-color:#f3f3f3; margin-top:10px; text-align:center; padding:20px; color:#666666;}
+
+.tabBlock {height:40px; line-height:40px; color:#666666; background-image:url(images/tab_bg_1.gif); background-repeat:repeat-x; background-position:left 39px;}
+.tabBlock ul, tabBlock li {margin:0; padding:0; list-style:none;}
+.tabBlock li {float:left; padding:0 20px; word-spacing:nowrap;}
+.tabBlock li:hover {background-image:url(images/tab_bg_1.gif); background-repeat:repeat-x; background-position:left -162px;}
+.tabBlock li:hover a {color:#333333;}
+.tabBlock a {color:#666666; text-decoration:none;}
+.tabBlock .selected, .tabBlock li.selected:hover {font-weight:bold; background-image:url(images/tab_bg_1.gif); background-repeat:repeat-x; background-position:left -62px;}
+.tabBlock .selected a, .tabBlock li.selected:hover a {color:#266aae;}
+
+.tabBlock_line {border-top:solid 1px #ffffff; font-size:0px; line-height:0px;}
+
+.line_1 {border-top:solid 1px #e3e3e3; border-bottom:solid 1px #ffffff; font-size:0px; line-height:0px;}
+.line_2 {font-size:0px; line-height:0px; padding-top:15px;}
+
+.titleBlock_1 {height:28px; line-height:28px; background-color:#e6e6e6; border-top:solid 1px #dddddd; border-bottom:solid 1px #ffffff; padding-left:10px; color:#666666; font-weight:bold;}
+.titleBlock_2 {height:28px; line-height:28px; background-color:#e6e6e6; border-top:solid 1px #dddddd; padding-left:10px; color:#666666; font-weight:bold;}
+.txtBlock_1 {line-height:20px; color:#666666; padding:15px 10px;}
+.txt_1 {padding-top:15px; text-align:center;}
+.txt_1 a {color:#000000; text-decoration:none; }
+.txt_1 a:hover {color:#cc0000;}
+
+.btnBlock_1 {height:34px; padding-top:10px}
+.btn_1 {height:25px; line-height:25px; padding:0 10px; margin-right:5px; border-left:solid 1px #c4c4c4; border-right:solid 1px #c4c4c4; background-color:#e6e6e6; background-image:url(images/btn_bg_1.gif); background-repeat:repeat-x; float:left; white-space:nowrap; cursor:pointer; }
+.btn_1:hover {background-position:0 -100px}
+.btn_1:active {background-position:0 -200px}
+.btn_1 .add {padding-left:14px; background-image:url(images/icon_1.gif); background-repeat:no-repeat; background-position:0 center}
+.btn_1 .delete {padding-left:14px; background-image:url(images/icon_1.gif); background-repeat:no-repeat; background-position:-200px center}
+.btn_1 .sure {padding-left:14px; background-image:url(images/icon_1.gif); background-repeat:no-repeat; background-position:-600px center}
+.btn_1 .info {padding-left:16px; background-image:url(images/icon_2.gif); background-repeat:no-repeat; background-position:0 center}
+.btn_1 .expand {padding-left:16px; background-image:url(images/icon_2.gif); background-repeat:no-repeat; background-position:-200px center}
+.btn_1 .collapse {padding-left:16px; background-image:url(images/icon_2.gif); background-repeat:no-repeat; background-position:-400px center}
+
+.btnBlock_2 {height:41px; padding:10px 0 0 10px;}
+.btn_2 {padding:0 16px; height:31px; line-height:31px; border-left:solid 1px #0e6191; border-right:solid 1px #0e6191; background-color:#438ac9; background-image:url(images/btn_bg_2.gif); background-repeat:repeat-x; float:left; white-space:nowrap; cursor:pointer; color:#ffffff; }
+.btn_2:hover {background-position:0 -100px}
+.btn_2:active {background-position:0 -200px}
+
+.btnQuery {padding:0 12px; height:25px; line-height:25px; border-left:solid 1px #c4c4c4; border-right:solid 1px #c4c4c4; background-color:#e6e6e6; background-image:url(images/btn_bg_1.gif); background-repeat:repeat-x; float:left; white-space:nowrap; cursor:pointer; color:#000000;}
+.btnQuery:hover {background-position:0 -100px}
+.btnQuery:active {background-position:0 -200px}
+
+.btnFixedBlock {position:fixed; bottom:0; left:0; width:100%; z-index:5; _position:absolute; _top:expression(documentElement.scrollTop + documentElement.clientHeight - this.offsetHeight); height:35px; padding-top:10px; padding-left:20px; background-color:#ebebeb; border-top:solid 1px #d8d8d8}
+
+.tableList_1 table {border-bottom:solid 1px #ffffff;}
+.tableList_1 thead td {height:28px; padding-left:10px; color:#666666; background-color:#e6e6e6; border-top:solid 1px #dddddd;}
+.tableList_1 tbody td {height:32px; padding-left:10px; border-top:solid 1px #ffffff;  border-bottom:solid 1px #e3e3e3; color:#333333; }
+.tableList_1 .hover {background-color:#ffffff;}
+.tableList_1 a {color:#266aae; text-decoration:none;}
+
+.pagerBlock_1 {height:40px; padding:10px 0 0 10px;}
+.pagerBlock_1 a, .pagerBlock_1 b {display:block; float:left; padding:0 10px; border:solid 1px #d9d9d9; white-space:nowrap; line-height:28px; margin-right:6px; color:#666666; background-color:#ffffff; }
+.pagerBlock_1 b {background-color:#24557d; border:solid 1px #24557d; color:#ffffff;}
+.pagerBlock_1 a:hover {background-color:#72a8cf; border:solid 1px #72a8cf; color:#ffffff;}
+
+.tableAdd_1 ul, .tableAdd_1 li {margin:0; padding:0; list-style:none;}
+.tableAdd_1 table {border-bottom:solid 1px #ffffff;}
+.tableAdd_1 tbody td, .tableAdd_1 tbody th {border-top:solid 1px #ffffff;  border-bottom:solid 1px #e3e3e3; text-align:left; color:#333333; padding-top:8px; padding-bottom:8px;}
+.tableAdd_1 tbody th {background-color:#fafafa; border-right:solid 1px #e3e3e3; padding-left:10px; font-weight:normal; vertical-align:top}
+.tableAdd_1 tbody td {padding-left:15px;}
+.tableAdd_1 .tips {color:#999999;}
+
+.input {height:26px; line-height:26px; margin:0; padding:0 2px; border:solid 1px #cccccc; }
+.input_1 {height:20px; line-height:20px; margin:0; padding:0 2px; border:solid 1px #cccccc; }
+.textarea {line-height:20px; margin:0; padding:2px; border:solid 1px #cccccc; }
+
+.inputWidth_1 {width:300px;}
+.inputWidth_2 {width:155px;}
+.inputWidth_3 {width:65px;}
+.inputWidth_4 {width:75px;}
+
+.tableQuery_1 {padding:5px 0; color:#666666;}
+.tableQuery_1 td {padding:3px 0; }
+.tableQuery_1 th {width:80px; padding-right:5px; text-align:right; font-weight:normal; }
+.tableQuery_1 .btnQuery {margin-left:20px; _margin-left:10px;}
+
+.orderList {padding:5px 0; color:#666666}
+.orderList .item {border:solid 1px #c4d5e0; margin-top:10px;}
+.orderList .header {line-height:24px; padding:5px 10px; background-color:#f6f9fc; border-bottom:solid 1px #c4d5e0;}
+.orderList .footer {line-height:24px; padding:5px 10px; background-color:#f6f9fc; border-top:solid 1px #c4d5e0;}
+.orderList .list {padding:5px; background-color:#ffffff;}
+.orderList .list th {background-color:#f8f8f8; color:#999999; font-weight:normal}
+.orderList .list td {border-bottom:solid 1px #eeeeee; padding:5px 0;}
+.orderList .img {width:50px; height:50px; border:solid 1px #dddddd;}
